@@ -5,7 +5,7 @@ import { getProfile } from "./lib/twitcasting.ts";
 const USERID = env("USERID");
 
 let latest = {
-  first: false,
+  first: true,
   user: {
     is_live: false,
   },
